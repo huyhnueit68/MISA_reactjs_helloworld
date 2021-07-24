@@ -15,6 +15,17 @@ import ComponentC from './components/context/ComponentC'
 import { UserProvider } from './components/context/UserContext'
 import UserContext from './components/context/UserContext'
 import HookArray from './components/HookArray'
+import CounterOne from './components/CounterOne'
+import CounterTwo from './components/CounterTwo'
+import DataFetchingTwo from './components/useReducer/DataFetchingTwo'
+import Counter from './components/useCallback/Counter';
+import FocusInput from './components/useRef/FocusInput'
+import ClassTimer from './components/useRef/ClassTimer'
+import HookTimer from './components/useRef/HookTimer';
+import DocTitleOne from './components/customHook/DocTitleOne'
+import DocTitleTwo from './components/customHook/DocTitleTwo'
+import Autocomplete from './components/Autocomplete'
+
 
 
 // const root = document.getElementById('root')
@@ -88,7 +99,17 @@ class App extends React.Component{
                 {/* <UserContext.Provider value="Harry Pham">
                     <ComponentC />
                 </UserContext.Provider> */}
-                <HookArray/>
+                {/* <HookArray/> */}
+                {/* <CounterOne /> */}
+                {/* <CounterTwo /> */}
+                {/* <DataFetchingTwo/> */}
+                {/* <Counter/> */}
+                {/* <FocusInput/> */}
+                {/* <ClassTimer />
+                <HookTimer/> */}
+                {/* <DocTitleOne />
+                <DocTitleTwo/> */}
+                {/* <Autocomplete/> */}
             </div>
         )
     }
